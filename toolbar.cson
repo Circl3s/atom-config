@@ -215,7 +215,7 @@
     icon: "th-large"
     iconset: "fa"
     callback: "expose:toggle"
-    tooltip: "Toggle minimap"
+    tooltip: "Exposé"
   }
   {
     type: "button"
