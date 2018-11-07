@@ -1,0 +1,226 @@
+# This file is used by Flex Tool Bar to create buttons on your Tool Bar.
+# For more information how to use this package and create your own buttons,
+#   read the documentation on https://atom.io/packages/flex-tool-bar
+
+[
+  {
+    type: "url"
+    icon: "octoface"
+    url: "https://github.com/{repo-owner}/{repo-name}/"
+    tooltip: "Open on GitHub"
+  }
+  {
+    type: "url"
+    icon: "ruby-plain"
+    iconset: "devicon"
+    url: "https://devdocs.io/ruby"
+    tooltip: "Open docs"
+    show: {
+        pattern: "*.rb"
+    }
+    hover: {
+      color: "#D91404"
+    }
+  }
+  {
+    type: "url"
+    icon: "dice-d20"
+    iconset: "fa"
+    url: "https://devdocs.io/crystal"
+    tooltip: "Open docs"
+    show: {
+        pattern: "*.cr"
+    }
+    hover: {
+      color: "#FFFFFF"
+    }
+  }
+  {
+    type: "url"
+    icon: "grin-alt"
+    iconset: "fa"
+    url: "https://emojicode.org/docs/reference/"
+    tooltip: "Open docs"
+    show: {
+        pattern: "*.emojic"
+    }
+    hover: {
+      color: "#FCC21B"
+    }
+  }
+  {
+    type: "url"
+    icon: "cplusplus-plain"
+    iconset: "devicon"
+    url: "https://devdocs.io/cpp"
+    tooltip: "Open docs"
+    show: {
+        pattern: [
+          "*.h"
+          "*.cpp"
+        ]
+    }
+    hover: {
+      color: "#9C033A"
+    }
+  }
+  {
+    type: "url"
+    icon: "html5-plain"
+    iconset: "devicon"
+    url: "https://devdocs.io/html"
+    tooltip: "Open docs"
+    show: {
+        pattern: [
+            "*.html"
+            "*.htm"
+        ]
+    }
+    hover: {
+      color: "#E54D26"
+    }
+  }
+  {
+    type: "url"
+    icon: "tint"
+    iconset: "fa"
+    url: "https://devdocs.io/elixir/"
+    tooltip: "Open docs"
+    show: {
+      pattern: [
+        "*.ex"
+        "*.exs"
+      ]
+    }
+    hover: {
+      color: "#4A1F5F"
+    }
+  }
+  {
+    type: "url"
+    icon: "moon"
+    iconset: "fa"
+    url: "https://devdocs.io/lua/"
+    tooltip: "Open docs"
+    show: {
+      pattern: "*.lua"
+    }
+    hover: {
+      color: "#00007C"
+    }
+  }
+  {
+    type: "url"
+    icon: "java-plain"
+    iconset: "devicon"
+    url: "https://devdocs.io/openjdk/"
+    tooltip: "Open Java docs"
+    show: {
+      pattern: "*.java"
+    }
+    hover: {
+      color: "#EA2D2E"
+    }
+  }
+  {
+    type: "url"
+    icon: "cube"
+    iconset: "fa"
+    url: "https://mcforge.readthedocs.io/en/latest/"
+    tooltip: "Open Forge docs"
+    show: {
+      pattern: "*.java"
+    }
+    hover: {
+      color: "#D8A367"
+    }
+  }
+  {
+    type: "url"
+    icon: "stack-overflow"
+    iconset: "fa"
+    url: "https://stackoverflow.com/"
+    tooltip: "Get help"
+  }
+  {
+    type: "button"
+    icon: "search"
+    iconset: "fa"
+    callback: "sourcerer:fetch"
+    tooltip: "Search for help"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type: "button"
+    icon: "palette"
+    iconset: "fa"
+    callback: "color-picker:open"
+    tooltip: "Color picker"
+  }
+  {
+    type: "button"
+    icon: "broom"
+    iconset: "fa"
+    callback: "atom-beautify:beautify-editor"
+    tooltip: "Beautify"
+  }
+  {
+    type: "button"
+    icon: "wrench"
+    iconset: "ion"
+    callback: "build:trigger"
+    tooltip: "Build"
+  }
+  {
+    type: "button"
+    icon: "git-compare"
+    callback: "git-time-machine:toggle"
+    tooltip: "Compare (Git Time Machine)"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type: "button"
+    icon: "file"
+    iconset: "fa"
+    callback: "application:new-file"
+    tooltip: "New file"
+  }
+  {
+    type: "button"
+    icon: "folder"
+    iconset: "fa"
+    callback: "application:open-folder"
+    tooltip: "Open folder"
+  }
+  {
+    type: "button"
+    icon: "save"
+    iconset: "fa"
+    callback: "window:save-all"
+    tooltip: "Save all"
+  }
+  {
+    type: "button"
+    icon: "map"
+    iconset: "fa"
+    callback: "minimap:toggle"
+    tooltip: "Toggle minimap"
+  }
+  {
+    type: "button"
+    icon: "th-large"
+    iconset: "fa"
+    callback: "expose:toggle"
+    tooltip: "Toggle minimap"
+  }
+  {
+    type: "button"
+    icon: "settings"
+    callback: "settings-view:open"
+    tooltip: "Open settings"
+  }
+]

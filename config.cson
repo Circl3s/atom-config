@@ -1,0 +1,45 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "a0f54558-ea96-4070-a8f5-21bc986cbac7"
+  "atom-ide-ui":
+    use:
+      "atom-ide-diagnostics-ui": "never"
+  "atom-material-ui":
+    colors:
+      abaseColor: "#2196f3"
+      predefinedColor: "Blue"
+    tabs: {}
+    ui:
+      panelContrast: true
+      panelShadows: true
+  core:
+    disabledPackages: [
+      "atom-ide-ui"
+      "build-tools"
+    ]
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "one-dark-syntax"
+    ]
+    uriHandlerRegistration: "always"
+  editor:
+    fontFamily: "Hack Nerd Font, Menlo, Consolas, DejaVu Sans Mono, monospace"
+  "exception-reporting":
+    userId: "5a4591fc-9328-4726-89ec-5e3b5cefda3c"
+  "file-icons":
+    coloured: false
+  "linter-ui-default":
+    panelHeight: 180
+    showPanel: true
+  minimap: {}
+  "split-diff":
+    ignoreWhitespace: true
+  todo:
+    b_flags: "gi"
+  "tool-bar":
+    position: "Right"
+  welcome:
+    showOnStartup: false
